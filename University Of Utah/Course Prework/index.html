@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootcamp Study Guide</title>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+    <header id="top">
+      <p class="TitleHeader">Study Guide</p>
+      <img class=bootcamplogo src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    </header>
+
+    <main>
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>Most important tags are head / body / title / head / h1-6 / p / img / b / i </li>
+          <li>Custom tags are declared inside tag with <i>"id or class = name"</i> and defined in css with # and . tagname</li>
+          <li>Element Attribute <i>"Block / Inline" </i> determines wether content alone takes up entire row or if it allows multiple elements
+          to fit alongside</li>
+        </ul>
+      </section>
+
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <p>CSS is doccument and specification that determine superficial features like font, margin, padding, image sizes, color, etc 
+          can bring websites to life very quickly! Alignment can be confusing!</p>
+        <ul>
+          <li>Z-index:∞ Determines draw order</li>
+        </ul> <br></b>
+        <p>HTML elements can be tricky to get them to go where you need them to,
+           The different <b>Position</b> settings are important to get familiar with as they determine this
+           Besides default elements have keywords Left, Right, Top, Bottom for finer control. Negative pixels / percentages
+           go outward while positive go inward</p><br></b>
+        <ul>
+          <li>Static is the default effiecent but not dynamic</li>
+          <li>Relative is like static but lets you move from original Position</li>
+          <li>Absolute Position are positioned based on the parent and removed from doccument flow </li>
+          <li>Fixed ignores everything, even scrolling, just based on view port browser window</li>
+          <li>Sticky is like static until it goes off screen then turns to fixed</li>
+          </ul>
+        
+      </section>
+
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <p>Git is powerful, efficent, and crucial technology that stores
+          multiple versions of things by only recording changes. Another key feature
+          is branching / merging. Combine this with cloud storage and you have a
+          must know feature industry is completely dependant on to collaborate
+        </p>
+        <ul>
+          <li>git revert: Changes clone to older hash version </li>
+          <li>git clone repository: Creates copy of repo on local computer</li>
+          <li>git remote -v: Verifies connection & ability to push & fetch</li>
+          <li>git status: returns current Branch clone represents</li>
+          <li>git checkout -b newbranch name: Creates new branch </li>
+          <li>git checkout -f branchname: Moves to branch and ignores all changes and erases them </li>
+          <li>git add -A: Stages all files to be commited </li>
+          <li>git commit -m "Message to be in commit": Soldifies changes</li>
+          <li>git pull origin branchname: Makes sure that branch is up to date</li>
+          <li>git push origin branchname: Finally uplods to cloud repository</li>
+          
+        </ul>
+      </section>
+
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
+
+    </main>
+    <footer>
+      <script src="./assets/script.js"></script>
+      <p class=footertext>Jonathan Haws</p>
+    </footer>
+  </body>
+</html>

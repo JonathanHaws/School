@@ -1,0 +1,12 @@
+
+<h1>TECH BLOG</h1>
+
+{{#each posts}}
+  {{> post}}
+{{/each}}
+
+<script> 
+  document.querySelectorAll('.toggleButton').forEach(button => {
+    if (localStorage.getItem(button.dataset.postId) === 'expanded') { toggleContent(button); }
+  });
+</script>

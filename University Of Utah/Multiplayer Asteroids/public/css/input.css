@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h-main {
+    height: 80vh; /* adjust to include nav and footer if we add one */
+  }

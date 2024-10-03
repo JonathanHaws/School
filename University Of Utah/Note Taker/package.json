@@ -1,0 +1,24 @@
+{
+    "name": "note-taker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "note-taker",
+      "heroku"
+    ],
+    "author": "Jonathan Haws / University Of Utah Bootcamp 2023",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.16.4",
+      "uuid": "^9.0.0"
+    },
+    "engines": {
+      "node": "16.6.0"
+    }
+}
+  

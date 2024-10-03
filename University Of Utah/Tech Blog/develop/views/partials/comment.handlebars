@@ -1,0 +1,16 @@
+<div class="comment"> 
+    <div class="postInfo">
+        <h2> {{author}} on {{date}}</span></h2>
+            {{#if canDelete}}
+                <button type="button" onclick="deleteComment({{id}})">X</button>
+            {{/if}}
+        </div>
+    <p>{{content}}</p>
+</div>
+
+<script> 
+    function deleteComment(id) { //console.log('deleting: ' + id);
+        fetch('/comments/' + id, { method: 'DELETE' })
+        .then(() => {window.location.reload();});
+    }       
+</script>

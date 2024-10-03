@@ -1,0 +1,15 @@
+
+<form id="newComment{{id}}">
+    <input type="hidden" name="id" value="{{id}}">
+    <textarea id="comment" name="comment" required></textarea> <br>
+    <button type="submit"> Comment </button>
+</form>
+
+<script>
+  document.querySelector(`#newComment{{id}}`).addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = Object.fromEntries(new FormData(e.target));
+    await fetch('/comments', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(formData) });
+    window.location.reload();
+  });
+</script>

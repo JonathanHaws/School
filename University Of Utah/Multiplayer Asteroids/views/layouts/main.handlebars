@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmogeddon</title>
+  <link rel="stylesheet" href="/css/output.css">
+</head>
+
+
+
+<body class="overflow-clip bg-[#23262a] bg-cover bg-center h-[90vh]" style="background-image: url('https://source.unsplash.com/jNKjqQQB5Gw/1920x1279')" >
+  <div class= "flex-col justify-around">
+    {{>header}}
+    <main class="m-0 p-0 max-h-full">
+
+      {{{ body }}}
+
+    </main>
+
+    <footer>
+
+    </footer>
+  </div>
+
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+
+</html>

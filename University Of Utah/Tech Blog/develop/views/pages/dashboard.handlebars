@@ -1,0 +1,14 @@
+
+<h1>DASHBOARD</h1>
+
+{{> newpost}}
+
+{{#each posts}}
+  {{> post}}
+{{/each}}
+
+<script> 
+  document.querySelectorAll('.toggleButton').forEach(button => {
+    if (localStorage.getItem(button.dataset.postId) === 'expanded') { toggleContent(button); }
+  });
+</script>

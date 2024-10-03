@@ -1,0 +1,29 @@
+{
+  "name": "teamprofile-generator",
+  "version": "1.0.0",
+  "description": "A CLI that allows you to visualize team and view important info",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanHaws/TEAMPROFILE-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanHaws/TEAMPROFILE-Generator/issues"
+  },
+  "homepage": "https://github.com/JonathanHaws/TEAMPROFILE-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}

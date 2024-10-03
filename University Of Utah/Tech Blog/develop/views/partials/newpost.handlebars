@@ -1,0 +1,21 @@
+
+<form id="newPost">
+  <div class="posts">
+    <div class="postInfo">
+      <h2>New Post</h2>
+      <input type="text" id="title" name="title" required><br>
+    </div>
+    <textarea id="content" name="content" required></textarea><br>
+    <button type="submit"> Post </button>
+  </div>
+</form>
+
+
+<script>
+  document.querySelector(`#newPost`).addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = Object.fromEntries(new FormData(e.target));
+    await fetch('/posts', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(formData) });
+    window.location.reload();
+  });
+</script>

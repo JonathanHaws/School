@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;}
+   
+  .TitleHeader{
+    text-align: center;
+    padding-left:0%;
+    font-size: 35px;
+    position: relative;
+    right: 20px;
+    top:50%;
+    transform:translateY(-50%);}
+  
+  .bootcamplogo{
+    position: relative;
+    left:52%;
+    top:50%;
+    transform:translateY(-50%);
+    transform:translate(45px,-60px);}
+  
+  header{
+    width: 100%;
+    height: 60px;
+    background-color: #7a5832;
+    color: hwb(0 74% 26%); 
+    text-align: center;}
+
+   footer {
+    width: 100%;
+    height: 30px;
+    background-color: #7a5832;
+    color: hwb(0 74% 26%); 
+    text-align: center;}
+   
+   h1{
+    text-align: center;
+    color: rgb(65, 65, 65);
+    text-shadow:-50 -50 rgb(193, 193, 193);}
+
+   h2{
+    text-align: center;
+    color: rgb(65, 65, 65);}
+   
+   img{
+    display: block;
+    height: 40px;
+    width: 40px;}
+   
+   ul{
+    padding-left: 40px;
+    font-size: 20px;
+    color: rgb(47, 47, 47);}
+   
+   p{
+    text-align: left;
+    padding-left: 40px;
+    font-size: 20px;}
+
+   .card{
+    width: 80%;
+    margin: 40px auto;
+    border: 3px solid rgb(61, 61, 61);
+    box-shadow: 5px 5px rgb(172, 140, 100);}
+
+  body{
+    background-color: rgb(221, 221, 221);}
+
+  .footertext{
+    padding-left: 0px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);}
